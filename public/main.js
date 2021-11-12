@@ -78,10 +78,10 @@ socket.on('responseRoom', function ([name, people, maxPeople]) {
     // ctx.fillText(name, 0, 10);
     // ctx.drawImage(back, canvas.width-cdWidth/2-60, canvas.height/2-cdHeight/4, cdWidth/2, cdHeight/2);
     // ctx.fillText(playerName, 100, 390);
-    dialog(name + ': Waiting for Players (' + people + '/' + maxPeople + ')');
+    dialog(name + ': Esperando por jugadores (' + people + '/' + maxPeople + ')');
   } else {
     socket.disconnect();
-    alert('Rooms are full! Try again later');
+    alert('Salas llenas, pruebe mas tarde :3');
   }
 });
 

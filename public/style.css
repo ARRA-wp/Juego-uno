@@ -1,7 +1,34 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #00897B;
+  background-image: url(./images/unogif.gif);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo-uno{
+  background-color: rgb(231, 15, 15);
+  text-align: center;
+  width: 1000px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 350;
+    font-size: 45px;
+  font-family: Ubuntu;
+}
+
+.titulo-dos{
+  background-color: rgb(231, 15, 15);
+  text-align: center;
+  width: 1000px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 350;
+    font-size: 25px;
+  font-family: Ubuntu;
 }
 
 canvas {
